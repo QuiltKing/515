@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+		<link rel="shortcut icon" href="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2993453294,2396722530&fm=15&gp=0.jpg" type="image/x-icon">
+		<title>Visual Studio 2019</title>
+		<script type="text/javascript" src="js/new_file.js" href="javascript">
+		</script>
+		<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/new_file.css">
+		<script>
+			$(document).ready(function(){
+			  $(".sousuo").click(function(){
+				  $(".kuan").toggle();
+				  $(".sub").toggle();
+			  });
+			  $(".first-pic").click(function(){
+				  $(this).hide();
+				  $(".first-pic1").show();
+				  $(".jindutiao").hide();
+			  });
+			  $(".first-pic").hover(function(){
+				  $(".zanting").toggle();
+			  });
+			  $(".zanting").click(function(){
+				  $(".first-pic1").show();
+				  $(".first-pic").hide();
+			  });
+			  $(".first-pic1").click(function(){
+				 $(this).hide();
+				 $(".first-pic").show(); 
+				 $(".jindutiao").show();
+			  });
+			  $(".first-pic1").hover(function(){
+			  	$(".bofang").toggle();
+			  });
+			  $(".bofang").click(function(){
+			    $(".first-pic").show();
+			    $(".first-pic1").hide();
+			  });
+			  $(".li2").click(function(){
+			  	$(".div2").toggle();
+			  });
+			  $(".li3").click(function(){
+			  	$(".div1").toggle();
+			  });
+			  $(".xiala").click(function(){
+				  $(".gengd").toggle();
+			  });
+			  $(".feedback").click(function(){
+				  $(".tishi").toggle();
+			  });
+			  
+			 $(".start5").hover(
+			     function(){
+			         $(".start1").css("color","#D63F26");
+			         $(".start2").css("color","#D63F26");
+			         $(".start3").css("color","#D63F26");
+			         $(".start4").css("color","#D63F26");
+					 $(".start5").css("color","#D63F26");
+			     },
+			     function(){
+			         $(".start1").css("color","");
+			         $(".start2").css("color","");
+			         $(".start3").css("color","");
+			         $(".start4").css("color","");
+			         $(".start5").css("color","");
+			     }
+			 );
+			 $(".start5").hover(
+			     function(){
+			         $(".start1").css("color","#D63F26");
+			         $(".start2").css("color","#D63F26");
+			         $(".start3").css("color","#D63F26");
+			         $(".start4").css("color","#D63F26");
+			 					 $(".start5").css("color","#D63F26");
+			     },
+			     function(){
+			         $(".start1").css("color","");
+			         $(".start2").css("color","");
+			         $(".start3").css("color","");
+			         $(".start4").css("color","");
+			         $(".start5").css("color","");
+			     }
+			 );
+			 
+			 $(".start4").hover(
+			     function(){
+			         $(".start1").css("color","#D63F26");
+			         $(".start2").css("color","#D63F26");
+			         $(".start3").css("color","#D63F26");
+			         $(".start4").css("color","#D63F26");
+			     },
+			     function(){
+			         $(".start1").css("color","");
+			         $(".start2").css("color","");
+			         $(".start3").css("color","");
+			         $(".start4").css("color","");
+			         $(".start5").css("color","");
+			     }
+			 );
+			 
+			 $(".start3").hover(
+			     function(){
+			         $(".start1").css("color","#D63F26");
+			         $(".start2").css("color","#D63F26");
+			         $(".start3").css("color","#D63F26");
+			     },
+			     function(){
+			         $(".start1").css("color","");
+			         $(".start2").css("color","");
+			         $(".start3").css("color","");
+			         $(".start4").css("color","");
+			         $(".start5").css("color","");
+			     }
+			 );
+			 $(".start2").hover(
+			     function(){
+			         $(".start1").css("color","#D63F26");
+			         $(".start2").css("color","#D63F26");
+
+			     },
+			     function(){
+			         $(".start1").css("color","");
+			         $(".start2").css("color","");
+			         $(".start3").css("color","");
+			         $(".start4").css("color","");
+			         $(".start5").css("color","");
+			     }
+			 );
+			 $(".start1").hover(
+			     function(){
+			         $(".start1").css("color","#D63F26");;
+			     },
+			     function(){
+			         $(".start1").css("color","");
+			         $(".start2").css("color","");
+			         $(".start3").css("color","");
+			         $(".start4").css("color","");
+			         $(".start5").css("color","");
+			     }
+			 );
+			 $(".start1").click(function(){
+			 				  $(".start1").addClass("after");
+			 							  $(".textarea").css("display","flex");
+			 })
+			 $(".start2").click(function(){
+			 				  $(".start1").addClass("after");
+			 				  $(".start2").addClass("after");
+							  $(".textarea").css("display","flex");
+			 })
+			 $(".start3").click(function(){
+			 	  $(".start1").addClass("after");
+			 	  $(".start2").addClass("after");
+			 				  $(".start3").addClass("after");
+							  $(".textarea").css("display","flex");
+			 })
+			 $(".start4").click(function(){
+			 	  $(".start1").addClass("after");
+			 	  $(".start2").addClass("after");
+			 				  $(".start3").addClass("after");
+			 				  $(".start4").addClass("after");
+							  $(".textarea").css("display","flex");
+			 })
+			 $(".start5").click(function(){
+			 	  $(".start1").addClass("after");
+			 	  $(".start2").addClass("after");
+			 				  $(".start3").addClass("after");
+			 				  $(".start4").addClass("after");
+			 				  $(".start5").addClass("after");
+							  $(".textarea").css("display","flex");
+							  
+			 });
+			 $(".fankuibtn").click(function(){
+				 $(".fankui").show();
+				 $(".xx").hide();
+			 })
+			});
+		</script>
+		<style>
+			@media screen and (max-width:400px)  {
+							body{
+								width: 368px;
+							}
+							.top{
+								flex-direction: column;
+								width: 368px;
+							}
+							.xiala{
+								display: block;
+								border: none;
+								background-color: white;
+								position: absolute;
+							}
+							.xiala ul{
+								display: none;
+							}
+							.sub{
+								display: none;
+							}
+							.gengd{
+								list-style: none;
+								display: flex;
+								flex-direction: column;
+								background-color: white;
+							}
+							.first{
+								width: 368px;
+							}
+							.first-pic{
+								width: 248px;
+								height: 8.9375rem;
+							}
+							.logo{
+								display: flex;
+								justify-content: center;
+							}
+							.first-top1{
+								width: 250px;
+							}
+							.first-bottom1{
+								display: flex;
+								flex-direction: column;
+								width: 350px;
+							}
+							.first-bottom1 p4{
+								font-size: 18px;
+							}
+							/* .first h{
+								font-size: 18px;
+							}
+							.first p{
+								font-size: 8px;
+							} */
+							.second-body{
+								width: 300px;
+								height: 200px;
+								margin-top: 390px;
+								line-height: 20px;
+							}
+							.second h{
+								font-size: 18px;
+							}
+							.second-body img{
+								width: 15.5rem;
+								height: 8.625rem;
+								line-height: 0px;
+							}
+							.second ul4{
+								margin-top: 0px;
+							}
+							.second{
+								display: flex;
+								margin-top: 0px;
+								height: 2000px;
+
+							}
+							.second-mune{
+								margin-top: 0px;
+							}
+							.third-w{
+								margin-left: 0px;
+							}
+							.third-btn-mune1{
+								margin-left: 0px;
+							}
+							.third-btn-mune2{
+								margin-left: 0px;
+							}
+							.third-btn-mune3{
+								margin-left: 0px;
+							}
+							.third-btn-mune4{
+								margin-left: 0px;
+							}
+							.third-btn-mune5{
+								margin-left: 0px;
+							}
+							.four-btn{
+								display: flex;
+								flex-direction: column;
+								margin-left: 0px;
+							}
+							.four{
+								height: 1500px;
+							}
+							.four h{
+								font-size: 18px;
+							}
+							.four-btn1{
+								margin-top: 50px;
+								
+							}
+							.five-btn2{
+								margin-left: 0px;
+								width: 368px;
+							}
+							.five-btn2 img{
+								width: 80px;
+								height: 50px;
+							}
+							.five-btn2 p{
+								font-size: 10px
+							}
+							.five-btn3{
+								margin-left: 0px;
+								width: 368px;
+							}
+							.five-btn3 img{
+								width: 80px;
+								height: 50px;
+							}
+							.five-btn3 p{
+								font-size: 10px
+							}
+							.six p{
+								font-size: 12px
+							}
+							.six img{
+								width: 50px;
+								height: 50px;
+							}
+							.list{
+								display: flex;
+								flex-direction: column;
+							}
+							.feedback{
+								left: 0px;
+							}
+							.jindutiao{
+								display: none;
+							}
+						}
+		</style>
+	</head>
+	<body>
+		
+
+		<div class="top">
+		<div class="logo">
+		<img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" style="width: 108px; height:23px" />
+		</div>
+		<center><div class="kuan" style="width: 900px;"><input type="text" name="email"  style="width: 800px;color: #616161;height: 50px;">
+		<a  class="sousuo">搜索<img src="img/search.png" width="15px" height="15px" style="margin: 0px;"></a></div></center>
+		<button class="xiala" style="width: 6.25rem;height: 10px;">
+			<p>更多<img src="img/arrow_down.png" width="20px" height="20px"></p>
+			<ul class="gengd">
+				<li>功能</li>
+				<li>下载</li>
+				<li>支持</li>
+			</ul>
+		</button>
+		
+		<div class="sub">
+			<ul>
+		<li><p1>|<span><a >Visual Studio</a></span></p1></li>
+				<li><a > Studio 2019</a></li>
+				<li style="width: 60px;" class="li" onclick="hide1();hide2();Show();"><a style="margin-left: 10px;">功能</a>
+				<div class="div">
+				<ul>
+					<p>工作负荷</p>
+					<li><a href="">移动</a></li>
+					<li><a href="">Azure</a></li>
+					<li><a href="">Web</a></li>
+					<li><a href="">Windows</a></li>
+					<li><a href="">游戏</a></li>
+				</ul>
+				<ul>
+					<p>技术</p>
+					<li><a href="">.NET</a></li>
+					<li><a href="">Python</a></li>
+					<li><a href="">NodeJS</a></li>
+					<li><a href="">c++</a></li>
+					</ul></div>↓
+				</li>
+				<li style="width: 60px;" class="li" onclick="Show2();hide();hide1();"><a  style="margin-left: 10px;">版本</a>
+				<div class="div2"><ul>
+				<li>比较版本</li>
+				<li>定价</li></ul></div>↓</li>
+				<li onclick="hide()"><a >下载</a></li>
+				<li style="width: 60px;" class="li" onclick=" Show1();hide2();hide();"><a  style="margin-left: 10px;">支持</a>
+				<div class="div1">
+					<ul>
+					<li>获得支持</li>
+					<li>开始使用</li>
+					<li>博客</li>
+					</ul>
+					</div>↓</li>
+				<li><a >订阅者访问</a></li>
+				<li><button class="btn" style="background-color: white;"><a >免费 Visual Studio</a></button></li>
+			</ul>
+			<ul style="margin-left: 150px;">
+				<li><a >所有 Microsoft</a>
+				</li>
+				<li class="sousuo li" ><a >搜索<img src="img/search.png" width="15px" height="15px" style="margin: 0px;"></a></li>
+				<li><a >sign in</a></li>
+				<li style="margin-left: 0px;"><img src="img/用户.png" width="25px" height="25px" style="margin: 0px;"></li>
+				</ul>
+		</div>
+	</div>
+	<div class="first" onclick="hide();hide1();hide2()">
+		<center><div class="first-top1">
+		<h>Visual Studio 2019   </h>
+		<p2>更快地进行代码编写。 更智能地执行操作。 使用同类最佳 IDE 创建未来。</p2>
+		</div>
+		<div class="first-top2">
+		<img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/02/VSWinIcon_100x.png" style="width:38px ;height:38px ; margin-left: 10px;margin-top: 0px;">
+		<button class="first-btn"style="background-color: white;">下载Visual Studio <img src="img/arrow_down.png"width="15px" height="15px" style="margin: 0px;"><div>
+		<ul>
+		<a ><li>community 2019</li></a>
+		<a ><li>professional 2109</li></a>
+		<a ><li>enterprise 2019</li></a></ul>
+		</div></button>
+		</div></center>
+		<center>
+		<img class="first-pic" src="https://visualstudio.microsoft.com/wp-content/uploads/2019/06/combined-gif2sl.gif" >
+		<img class="first-pic1" src="img/批注%202019-12-08%20165359.jpg" style="width:1176px ;height:661.5px ; margin-top: 100px;">
+		<div class="zanting"><img src="img/暂停.png"></div>
+		<div class="bofang"><img src="img/暂停(1).png"></div>
+		<div class="jindutiao"></div>
+		</center>
+		<div class="jindutiao"></div>
+		<div class="first-bottom1">
+		<p4>使用从初始设计到最终部署的完整工具集进行开发</p4>
+<ul1>	
+    <li>✓改进了 C++ 文件的 IntelliSense 性能</li>
+    <li>✓使用多个常用仿真程序进行本地开发</li>
+    <li>✓简化了解决方案资源管理器中的测试访问</li>
+    <li>✓IDE 中的 Git 管理和存储库创建</li>
+    <li>✓Kubernetes 支持现在包含在 Microsoft Azure 工作负载中</li>
+</ul1>
+	</div>
+	<div class="first-bottom2">
+		<ul3>
+			<li><a href="https://visualstudio.microsoft.com/zh-hans/vs/whatsnew/" style="color: #FFFFFF;">新增内容＞</a></li>
+			<li><a href="https://visualstudio.microsoft.com/zh-hans/vs/preview/" style="color: #FFFFFF;">Visual Studio浏览＞</a></li>
+		</ul3>
+	</div>
+	<div class="second" style="height: 866.117px;display: flex;justify-content:space-around;background-image: linear-gradient(to top, #333333,#070707);">
+	    <div class='second-mune'>
+			<ul4 style="list-style: none;">
+	        <li><a href='javascript:void(0)' index='0' class='tab_btn curr_btn'><img src="img/kaifataojian.png" width="20px" height="20px" style="margin: 0px;margin-right: 10px;">开发</a></li>
+	        <li><a href='javascript:void(0)' index='1' class='tab_btn'><img src="img/icon1.png" width="20px" height="20px" style="margin: 0px;margin-right: 10px;">分析</a></li>
+	        <li><a href='javascript:void(0)' index='2' class='tab_btn'><img src="img/bug.png" width="20px" height="20px" style="margin: 0px;margin-right: 10px;">debug</a></li>
+			<li><a href='javascript:void(0)' index='3' class='tab_btn'><img src="img/ceshi.png" width="20px" height="20px" style="margin: 0px;margin-right: 10px;">测试</a></li>
+			<li><a href='javascript:void(0)' index='4' class='tab_btn'><img src="img/renren.png" width="20px" height="20px" style="margin: 0px;margin-right: 10px;">协作</a></li>
+			<li><a href='javascript:void(0)' index='5' class='tab_btn'><img src="img/huojian.png" width="20px" height="20px" style="margin: 0px;margin-right: 10px;">部署</a></li>
+			</ul4>
+	    </div>
+	    <div class='body'>
+	        <div class='second-body curr_div'>
+	       <h>编写没什么错误的代码</h>
+	       <p>遇到困难时使用 IntelliSense 代码建议快速准确地键入变量。 无论导航到所需的任何文件、类型、成员或符号声明时的复杂程度如何，都保持一定的速度。 使用建议操作（例如重命名函数或添加参数）的灯泡快速改进代码。</p>
+	       <p>所有开发功能 ></p>
+	       <img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/lightbulb-dark-1200.gif" width="873.683px" height="471.9px" style="margin: 0px;">
+	        </div>
+	        <div class='second-body'>
+			<h>了解有关代码的详细信息</h>
+			<p>CodeLens 帮助你轻松找到重要见解，例如对代码所做的更改、这些更改的影响以及是否对方法进行了单元测试。 可一目了然地查看参考、作者、测试、提交历史记录和其他重要信息。</p>
+			<p>所有分析功能 ></p>
+	        <img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/codelens-1200.gif" width="873.683px" height="471.9px" style="margin: 0px;">
+	        </div>
+	        <div class='second-body'>
+	        <h>快速找到并修复 bug</h>
+	        <p>借助 Visual Studio，可以使用断点和所需方法在要检查 bug 时暂停代码执行。 如果一步过长或遇到了意外的更改，可以回退到任何特定代码行，而无需重启会话或重新创建状态。</p>
+	        <p>所有调试功能 ></p>
+			<img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/Debugging-1200.gif" width="873.683px" height="471.9px" style="margin: 0px;">
+	        </div>
+			<div class='second-body'>
+			<h>有效工作</h>
+			<p>轻松导航和组织测试套件，以便分析测试的代码量并立即查看结果。 立即了解所做的每个更改的影响，并让高级功能在你键入代码时对其进行测试。 在错误发生时立即修复错误，并查看现有测试是否覆盖了新更改。</p>
+			<p>所有测试功能  ></p>
+			<img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/test-dark-1200.gif" width="873.683px" height="471.9px" style="margin: 0px;">
+			</div>
+			<div class='second-body'>
+			<h>共享多个屏幕</h>
+			<p>无论语言或平台如何，都可以使用 Live Share 通过快速自然地协作来领导团队，以共同实时编辑和调试。 通过强制每个用户使用一致的编码样式的访问控制和自定义编辑器设置来个性化会话。</p>
+			<p>所有协作功能  ></p>
+			<img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/liveshare-dark-1200.gif" width="873.683px" height="471.9px" style="margin: 0px;">
+			</div>
+			<div class='second-body'>
+			<h>针对云进行构建</h>
+			<p>使用适用于常见应用程序类型和本地 Azure 仿真程序的模板快速启动和运行，而无需 Azure 帐户。 还可以预配应用程序依赖项（例如 Azure SQL 数据库和 Azure 存储帐户），而无需离开 Visual Studio。 使用直接附加到应用程序的 Visual Studio 远程调试器快速诊断任何问题。</p>
+			<p>所有部署功能  ></p>
+			<img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/Deploy-800-1.gif" width="873.683px" height="471.9px" style="margin: 0px;">
+			</div>
+	    </div>
+	</div>
+	<div class="third">
+		<div class="third-w" onclick="hide3();hide4();hide8()">
+		<h>Visual Studio 工作负载</h>
+		<p style="font-size: 1.5rem;font-weight: 600;">仅安装在 Visual Studio 中开发所需的工具和组件捆绑包</p>
+		<p style="font-size: 1.125rem;font-weight: 300;color: #0067b7;"><a href="https://docs.microsoft.com/en-us/visualstudio/install/modify-visual-studio?view=vs-2019">修改 Visual Studio ＞</a></p>
+		</div>
+		<div class="third-btn-mune">
+		<div class="third-btn-mune1" onclick="hide7();hide8();hide9();hide11();hide12();hide13();hide10()">
+			<div class="third-p" onclick="hide3();hide4()"><p1>Web & cloud</p1></div>
+		<a><div class="third-btn1" onclick="show();hide3()"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/ASPNETWebDev.svg">
+		<p>ASP.NET 和 Web 开发</p>
+		
+		</div></a>
+		<a onclick="show1();hide4()"><div class="third-btn1"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/Azure.svg">
+		<p>Azure</p>
+		
+		</div></a>
+		<a onclick="show();hide3()"><div class="third-btn1"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/Python.svg">
+		<p>Python</p></div></a>
+		<a onclick="show1();hide4()"><div class="third-btn1"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/NodeJS.svg" width="32px" height="32px">
+		<p>Node.js</p></div></a>
+		<div class="hide">
+				<h>ASP.NET 和 Web 开发</h>
+				
+				<p>使用 ASP.NET Core、ASP.NET (.NET Framework)、HTML/JavaScript 和包括 Docker 支持的容器生成 Web 应用程序</p>
+				<h>说明</h>
+				
+				<p>最大限度地提高使用 ASP.NET Core 以及 HTML 和 JavaScript 等基于标准的技术开发 .NET Web 应用程序的工作效率。</p>
+				<h>开发应用程序</h>
+				
+				<p>使用 ASP.NET Core 中的 Razor 页面的网站</p>
+				<p>– 使用 ASP.NET Core MVC 生成 Web API</p>
+				<p>– 使用 ASP.NET Core SignalR 构建实时 Web 应用</p>
+				<h>组件</h>
+				
+				<p>– .NET Framework 4.x 开发工具</p>
+				<p>– .NET Core 2.1 开发工具</p>
+				<p>– ASP.NET 和 Web 开发工具</p>
+				<p>– .NET 分析工具</p>
+				<p>– 容器开发工具</p>
+				<p>– 用于 Web 开发的云工具</p>
+				<p>– IntelliSense、代码导航和重构（C#、Visual Basic 和 F#）</p>
+				详细了解 ASP.NET 和 Web 开发
+		</div>
+		<div class="hide1">
+			<h>Azure</h>
+			
+			<p>用于开发云应用、创建资源以及生成包括 Docker 支持的容器的 Azure SDK、工具和项目</p>
+			<h>说明</h>
+			
+			<p>轻松在 Microsoft 云上生成、测试、部署和管理可扩展的应用和服务。 安装后，在 Cloud Explorer 中查看资源、使用 Azure 管理工具创建资源、生成适用于 Azure Web 和云服务的应用程序，还能使用 Azure Datalake 工具执行大数据运算。</p>
+			<h>开发应用程序</h>
+			
+			<p>– 在集成开发环境中将 ASP.NET Core 应用发布到 Azure</p>
+			<p>– 测试云服务的性能</p>
+			<p>– 调试已发布的 Azure 云服务</p>
+			<h>组件</h>
+			
+			<p>– Azure 开发必备组件</p>
+			<p>– .NET Framework 4.x 开发工具</p>
+			<p>– .NET Core 2.1 开发工具</p>
+			<p>– ASP.NET 和 Web 开发工具</p>
+			<p>– 容器开发工具</p>
+			了解有关 Azure 的详细信息
+			
+		</div>
+		</div>
+		
+		<div class="third-btn-mune2"  onclick="hide3();hide4();hide11();hide12();hide13();hide10()">
+			<div class="third-p"><p1>Windows</p1></div>
+		<a onclick="show3();hide8();hide9()"><div class="third-btn1"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/NETDesktopDev.svg">
+		<p>.NET 桌面开发</p></div></a>
+		<a onclick="show4();hide7();hide9()"><div class="third-btn1"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/DesktopDevCPP.svg">
+		<p>使用c++的桌面开发</p></div></a>
+		<a onclick="show5();hide7();hide8()"><div class="third-btn1"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/UWPDev.svg">
+		<p>UWP 开发</p></div></a>
+		<div class="hide2">
+			
+			<h>.NET 桌面开发</h>
+			
+			<p>使用 C#、Visual Basic 和 F# 生成 WPF、Windows 窗体和控制台应用程序</p>
+			<h>说明</h>
+			
+			<p>使用 Windows Presentation Foundation 或 Windows 窗体创建基于 Windows 的应用程序。此外，利用 .NET Framework 创建 Web 应用程序，以及创建可通过 Microsoft Store 发布的面向计算机或设备的客户端应用程序。</p>
+			<h>开发应用程序</h>
+			
+			<p>– Windows Presentation Foundation (WPF)</p>
+			<p>– Windows 窗体</p>
+			<h>组件</h>
+			
+			<p>– .NET 桌面开发工具</p>
+			<p>– .NET Framework 4.x 开发工具</p>
+			<p>– .NET 分析工具</p>
+			<p>– C# 和 Visual Basic 语言支持</p>
+			<p>– Entity Framework 6 工具</p>
+			<p>– IntelliTrace</p>
+			<p>>– 实时调试器</p>
+			<p>– Live Unit Testing</p>
+			<p>Live Share</p>
+			详细了解 .NET 桌面开发
+
+		</div>
+		<div class="hide3">
+		
+			<h>使用 C++ 的桌面开发</h>
+			
+			<p>使用所选的工具构建适用于 Windows 的新式 C++ 应用，包括 MSVC、Clang、CMake 或 MS Build</p>
+			<h>说明</h>
+			
+			<p>C++ 桌面应用在控制台或窗口中运行。 利用强大的 MSVC 编译器和库工具集，或引入自己的生成工具，来完成作业。</p>
+			<h>开发应用程序</h>
+			
+			<p>– 使用 C++ 构建传统的 Windows 桌面应用程序</p>
+			<p>– 使用 C++ 构建控制台应用程序</p>
+			<h>组件</h>
+			
+			<p>– MSVC x64/x86 生成工具</p>
+			<p>– Visual C++ 核心桌面功能</p>
+			<p>– C++ 分析工具</p>
+			<p>– Windows 10 SDK</p>
+			<p>– 用于 Windows 的 C++ CMake 工具</p>
+			<p>– Google Test 测试适配器</p>
+			<p>– Boost.Test 测试适配器</p>
+			<p>– IntelliTrace</p>
+			<p>– 实时调试器</p>
+			<p>– Live Share</p>
+			详细了解使用 C++ 进行桌面开发
+
+		</div>
+		<div class="hide4">
+			
+			<h>UWP 开发</h>
+			
+			<p>使用 C#、VB、或（可选）C++ 为通用 Windows 平台创建应用程序</p>
+			<h>说明</h>
+			
+			<p>生成面向 Windows 桌面、Xbox、HoloLens、SurfaceHub 和 Windows 10 loT 的应用程序。</p>
+			<h>开发应用程序</h>
+			
+			<p>– 通用 Windows 平台(UWP)</p>
+			<h>组件</h>
+			
+			<p>– Blend for Visual Studio</p>
+			<p>– .NET 本机和 .NET 标准</p>
+			<p>– Nuget 包管理器</p>
+			<p>– 通用 Windows 平台工具</p>
+			<p>– Windows 10 SDK</p>
+			深入了解 UWP 开发
+
+		</div>
+		</div>
+		
+		<div class="third-btn-mune3"  onclick="hide3();hide4();hide7();hide8();hide9()">
+			<div class="third-p"><p1>Mobile & gaming</p1></div>
+		<a onclick="show6();hide11();hide12();hide13()"><div class="third-btn1"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/MobileDevwNET.svg">
+		<p>使用NET的移动开发</p></div></a>
+		<a onclick="show7();hide10();hide12();hide13()"><div class="third-btn1"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/MobileDevCPP.svg">
+		<p>使用c++的移动开发</p></div></a>
+		<a onclick="show8();hide10();hide11();hide13()"><div class="third-btn1"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/Unity.svg">
+		<p>使用UNITY的游戏开发</p></div></a>
+		<a onclick="show9();hide10();hide11();hide12()""><div class="third-btn1"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/GameDevCPP.svg">
+		<p>使用c++的游戏开发</p></div></a>
+		<div class="hide5">
+			
+			<h>使用 .NET 的移动开发</h>
+			
+			<p>使用 Xamarin 生成适用于 iOS、Android 或 Windows 的跨平台应用程序</p>
+			<h>说明</h>
+			
+			<p>使用 C# 和 XAML 生成完全本机的 iOS、Android 和通用 Windows 平台应用。 Xamarin 利用单种语言提供平台 API 和功能的完全访问权限，并允许与其他 .NET 平台共享代码库。</p>
+			<h>开发应用程序</h>
+			
+			<p>– 使用 Xamarin.Forms 生成跨平台应用</p>
+			<p>– 使用 Xamarin.Essentials API 访问本机功能</p>
+			<h>组件</h>
+			
+			<p>– Xamarin</p>
+			<p>– .NET Framework4.x 开发工具</p>
+			<p>– C# 和 Visual Basic 语言支持</p>
+			<p>– Android SDK 安装</p>
+			详细了解如何使用 .NET 进行移动开发
+
+		</div>
+		<div class="hide6" style="width:950px">
+			<h>使用 C++ 的移动开发</h>
+			
+			<p>构建适用于 iOS 或 Android 的跨平台 C++ 应用</p>
+			<h>开发应用程序</h>
+			
+			<p>– Android 本机应用</p>
+			<p>– 导入 XCode 项目</p>
+			<p>– Android 和 iOS 上的 OpenGL ES 应用程序</p>
+			<h>组件</h>
+			
+			<p>– Visual Studio C++ 核心功能</p>
+			<p>– Android SDK 安装</p>
+			<p>– Android NDK</p>
+			<p>– Apache Ant</p>
+			<p>– C++ Android 开发工具</p>
+			详细了解如何使用 C++ 进行移动开发
+		</div>
+		<div class="hide7">
+			
+			<h>使用 Unity 的游戏开发</h>
+			
+			<p>使用功能强大的跨平台开发环境 Unity 创建 2D 和 3D 游戏</p>
+			<h>说明</h>
+			
+			<p>创建游戏和交互式内容，并发布到 21 个平台，包括所有移动平台、WebGL、Mac、PC 和 Linux 桌面、Web 或控制台。</p>
+			<h>开发应用程序</h>
+			
+			<p>使用高级调试体验开发 Unity 游戏</p>
+			<h>组件</h>
+			
+			<p>– Visual Studio Tools for Unity</p>
+			<p>– C# 和 Visual Basic</p>
+			详细了解如何使用 Unity 进行游戏开发
+
+		</div>
+		<div class="hide8">
+			<h>使用 C++ 的游戏开发</h>
+			
+			<p>以 DirectX、Unreal 或 Cocos2d 为后盾，利用 C++ 的强大功能生成专业游戏</p>
+			<h>说明</h>
+			
+			<p>以 DirectX、Unreal 或 Cocos2d 为后盾，利用 C++ 的强大功能生成适用于 Windows、Xbox 和其他控制台的专业游戏。</p>
+			<h>开发应用程序</h>
+			
+			<p>– Xbox Live 应用</p>
+			<p>– HoloLens 上的 UWP 应用</p>
+			<p>– Marble Maze</p>
+			<h>组件</h>
+			
+			<p>– MSVC x64/x86 生成工具</p>
+			<p>– Visual Studio C++ 核心功能</p>
+			<p>– Windows 通用 C 运行时</p>
+			<p>– C++ 分析工具</p>
+			<p>– Windows 10 SDK</p>
+			<p>– IntelliTrace</p>
+			详细了解如何使用 C++ 进行游戏开发
+		</div>
+		</div>
+		
+		<div class="third-btn-mune4"  onclick="hide3();hide4();hide7();hide8();hide9();hide11();hide12();hide13();hide10()">
+			<div class="third-p"><p1>Other toolsets</p1></div>
+		<a ><div class="third-btn1"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/DataStorageProcess.svg">
+		<p>数据储存和处理</p></div></a>
+		<a ><div class="third-btn1"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/DataScience.svg">
+		<p>数据科学和分析应用程序</p></div></a>
+		<a ><div class="third-btn1"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/VSExtensionDev.svg">
+		<p>Visual Studio扩展开发</p></div></a>
+		<a ><div class="third-btn1"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/Office.svg">
+		<p>Office/SharePoint</p></div></a>
+		<a ><div class="third-btn1"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/Linux.svg">
+		<p>使用c++的Linux开发</p></div></a>
+		</div>
+		<div class="third-btn-mune5"><a ><div class="third-btn1"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/NETCore.svg">
+		<p>.NET core 跨平台开发</p></div></a></div></div>
+		
+	</div>
+	</div>
+	</div>
+	<div class="four">
+		<center><div style="padding-top: 55px;"><h>Visual Studio 使 Azure 开发变得更简单</h></div></center>
+		<div class="four-btn">
+		<div class="four-btn1"><img src="img/批注%202019-11-24%20160303.jpg" style="float: left;margin: 0px;"><a href="https://azure.microsoft.com/en-us/resources/templates/"><p>快速入门</a></p>
+		<p1>使用 Azure 专用项目模板完成更多工作。 这些快速入门模板为你提供一个工作应用，以便你可以立即部署到云。</p1>
+		</div>
+		<div class="four-btn1"><img src="img/批注%202019-11-24%20160319.jpg" style="float: left;margin: 0px;"><a href="https://azure.microsoft.com/en-us/products/visual-studio/"><p>易于部署</a></p>
+		<p1>将应用程序直接从 Visual Studio 一键部署到 Azure，以便轻松连接到选择的数据库。</p1>
+		</div>
+		<div class="four-btn1"><img src="img/批注%202019-11-24%20160327.jpg" style="float: left;margin: 0px;"><a href="https://azure.microsoft.com/en-us/blog/introduction-to-remote-debugging-on-azure-web-sites/"><p>远程调试</a></p>
+		<p1>处理难以在计算机上本地重现的问题时，可以使用 Visual Studio 中的 Cloud Explorer 快速轻松地将 Visual Studio 远程调试器附加到 Azure 环境。</p1>
+		</div>
+		<div class="four-btn1"><img src="img/批注%202019-11-24%20160333.jpg" style="float: left;margin: 0px;"><a href="https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview"><p>直观地浏览</a></p>
+		<p1>使用 Cloud Explorer 从 Visual Studio 管理和浏览 Azure 资源和资源组。 可以检查其属性并轻松执行关键诊断操作。</p1>
+		</div>
+		</div>
+	</div>
+	<div class="five">
+		<center><div style="line-height: 3.125rem;padding-top: 50px;"><h>扩展和集成</h></div>
+		<div><p1>使用最常用的加载项轻松保持高效 </p1></div>
+		<div class="five-a">
+			<p2 style="font-size: 1.125rem;color: #0067B7;"><a >详细了解扩展</a></p2>
+			<p3><a >浏览市场</a></p3></div></center>
+		<div id="five-mune1">
+		    <button onclick="Color();hide6()" class="btn1" id="right" href="javascript:;" style="width: 58px;font-size: 18px;font-weight: 600;z-index:100;"><img src="img/arrow_left.png"style="margin: 0px;width: 50px;"></button>
+
+		    <div class="five-mune1-1">
+		        <div id="five-btn1">
+		            <ul class="clearfix">
+		                <li><img src="https://stevecadwallader.gallerycdn.vsassets.io/extensions/stevecadwallader/codemaid/11.1.209/1573042156382/Microsoft.VisualStudio.Services.Icons.Branding" width="64px" height="64px">
+				codemaid<p>free</p><p style="color: #D63F26;">★★★★★</p></li>
+		                <li><img src="https://github.gallerycdn.vsassets.io/extensions/github/githubextensionforvisualstudio/2.10.8.8132/1572065776561/Microsoft.VisualStudio.Services.Icons.Branding" width="64px" height="64px">
+				GitHub<p>free</p><p style="color: #D63F26;">★★★★★</p></li>
+		                <li><img src="https://jetbrains.gallerycdn.vsassets.io/extensions/jetbrains/resharper/2019.2.3/1572358355224/Microsoft.VisualStudio.Services.Icons.Branding" width="64px" height="64px">
+				NUnit Developers<p>free</p><p style="color: #D63F26;">★★★★★</p></li>
+		                <li><img src="https://wholetomatosoftware.gallerycdn.vsassets.io/extensions/wholetomatosoftware/visualassist/10.9.2341.2/1566264012146/Microsoft.VisualStudio.Services.Icons.Branding" width="64px" height="64px">
+				Whole Tomato Software<p>free</p><p style="color: #D63F26;">★★★★★</p></li>
+		                <li><img src="https://stevedowermsft.gallerycdn.vsassets.io/extensions/stevedowermsft/indentguides/16.0.0.0/1574469364573/Microsoft.VisualStudio.Services.Icons.Branding" width="64px" height="64px">
+				Whole Tomato Software<p>free</p><p style="color: #D63F26;">★★★★★</p></li>
+		                <li><img src="https://erikej.gallerycdn.vsassets.io/extensions/erikej/sqlservercompactsqlitetoolbox/4.7.644/1559576620329/Microsoft.VisualStudio.Services.Icons.Branding" width="64px" height="64px">
+				Steve Dower [MSFT]<p>free</p><p style="color: #D63F26;">★★★★★</p></li>
+		                <li><img src="https://madskristensen.gallerycdn.vsassets.io/extensions/madskristensen/webcompiler/1.12.394/1538582164333/Microsoft.VisualStudio.Services.Icons.Branding" width="64px" height="64px">
+				Microsoft<p>free</p><p style="color: #D63F26;">★★★★★</p></li>
+		                <li><img src="https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.NUnit3TestAdapter" width="64px" height="64px">
+				ErikEJ<p>free</p><p style="color: #D63F26;">★★★★★</p></li>
+		                
+		            </ul>
+		        </div>
+		    </div>
+		
+		<button onclick="color();hide5()" class="btn0" id="left" href="javascript:;" style="width: 58px;z-index:100;"><img src="img/arrow_right.png"style="margin: 0px;width: 50px;"></button>
+		</div>
+		<center><h1>Visual Studio 2019 发布视频</h1></center>
+		
+		<center><div class="five-btn2" >
+		<button class="btnp" id="left0" onclick="Showpic()"><img src="img/arrow_left.png"width="20px" height="20px" style="margin: 0px;"></button>
+			<ul class="list">
+				<li class="item active"><div style="width: 100%;height: 100%;display: flex;justify-content: space-between;" >
+				<div style="width: 240px;height: 90%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/04/VSL_Live_1130AM.jpg"class="imgo"><p>消灭 bug 并提高代码质量</p></div>
+				<div style="width: 240px;height: 90%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/04/VSL_Live_12PM.jpg" class="imgo"><p>借助 GitHub 和 Azure </p></div>
+				<div style="width: 240px;height: 90%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/04/VSL_Live_1230PM.jpg" class="imgo"><p>AI 注入中断</p></div>
+				<div style="width: 240px;height: 90%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/04/VSL_Live_1PM.jpg" class="imgo"><p>加速 C++ 开发</p></div></div></li>
+				<li class="item"><div style="width: 100%;height: 100%;display: flex;justify-content:space-around;">
+				<div style="width: 240px;height: 90%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/04/VSL_Live_130PM.jpg"class="imgo"><p>使用 Xamarin 进行跨平台 iOS 和 Android 开发</p></div>
+				<div style="width: 240px;height: 90%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/04/VSL_Live_2PM.jpg"class="imgo"><p>使用 Visual Studio 和 Azure 开启到云的旅程</p></div>
+				<div style="width: 240px;height: 90%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/04/VSL_Live_230PM.jpg"class="imgo"><p>使用 .NET Core 生成出色的 Web 应用</p></div>
+				<div style="width: 240px;height: 90%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/04/VSL_Live_300PM.jpg"class="imgo"><p>使用 Visual Studio for Mac 进行 .NET 开发的概述</p></div></div></li>
+				<li class="item"><div style="width: 100%;height: 100%;display: flex;justify-content: space-around;">
+				<div style="width: 240px;height: 90%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/08/2019-launch-video-1.jpg"class="imgo"><p>“Not your average”主题演讲</p></div>
+				<div style="width: 240px;height: 90%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/04/VSL_Live_10AM.jpg"class="imgo"><p>Visual Studio Big Wigs 现场问答</p></div>
+				<div style="width: 240px;height: 90%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/04/VSL_Live_1030AM.jpg"class="imgo"><p>以更快的速度编写更出色的代码</p></div>
+				<div style="width: 240px;height: 90%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/04/VSL_Live_11AM.jpg"class="imgo"><p>简化梦想开发团队</p></div></div></li>
+				<li class="item"><div style="background-color: white;width: 100%;height: 100%;">
+				<div style="width: 240px;height: 90%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/04/VSL_Live_330PM.jpg"class="imgo"><p>优秀的开发人员编写出色的代码</p></div></div></li>	
+			</ul>
+			<button class="btnp" id="right0" onclick="showpic()"><img src="img/arrow_right.png"width="20px" height="20px" style="margin: 0px;"></button>
+		</div></center>
+		
+		
+		<center><div class="five-btn3">
+		<button class="btno" id="leftx" onclick="SHOW()"><img src="img/arrow_left.png"width="20px" height="20px" style="margin: 0px;"></button>
+			<ul class="list2">
+				<li class="lii active"><div style="width: 100%;height: 100%;display: flex;justify-content: space-around;" >
+				<div style="width: 240px;height: 80%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/04/VSLaunch_VSR105.jpg"class="imgo"><p>Visual Studio 2019 使用 Unity 在游戏开发领域大显身手</p></div>
+				<div style="width: 240px;height: 80%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/04/VSLaunch_VSR106.jpg" class="imgo"><p>在此 Visual Studio 2019 会话中联合所有容器和 Kubernetes 迷</p></div>
+				<div style="width: 240px;height: 80%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/04/VSLaunch_VSR107.jpg" class="imgo"><p>.NET Core 3.0 的新功能</p></div>
+				<div style="width: 240px;height: 80%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/04/VSLaunch_VSR108.jpg" class="imgo"><p>Visual Studio App Center 提供的移动应用和游戏 CI/CD</p></div></div></li>
+				<li class="lii"><div style="width: 100%;height: 100%;display: flex;justify-content:space-around;">
+				<div style="width: 240px;height: 80%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/04/VSLaunch_VSR101.jpg"class="imgo"><p>包含所有内容！</p></div>
+				<div style="width: 240px;height: 80%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/04/VSLaunch_VSR102.jpg"class="imgo"><p>你有 Visual Studio 订阅吗？ 现在要做什么？</p></div>
+				<div style="width: 240px;height: 80%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/04/VSLaunch_VSR103.jpg"class="imgo"><p>利用 Visual Studio 开发 Python</p></div>
+				<div style="width: 240px;height: 80%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/04/VSL_Live_300PM.jpg"class="imgo"><p>使用 .NET Core 3.0 统一 Windows 桌面开发</p></div></div></li>
+				<li class="lii"><div style="width: 100%;height: 100%;display: flex;justify-content: space-around;">
+				<div style="width: 240px;height: 80%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/04/VSLaunch_VSR109.jpg"class="imgo"><p>每个开发人员使用 ML.NET 和 Visual Studio 2019 实现机器学习和人工智能</p></div>
+				<div style="width: 240px;height: 80%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/04/VSLaunch_VSR110.jpg"class="imgo"><p>借助 IoT 和 .NET Core 让应用程序快速“领先”</p></div>
+				<div style="width: 240px;height: 80%;"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/04/VSLaunch_VSR111.jpg"class="imgo"><p>使用 Azure Sphere 和 Visual Studio 简化 IoT 开发</p></div>
+				</div></li>	
+			</ul>
+			<button class="btno" id="rightx" onclick="shoow()"><img src="img/arrow_right.png"width="20px" height="20px" style="margin: 0px;"></button>
+		</div></center>
+		
+		
+	</div>
+	<div class="six">
+		<div class="six-btn1"><img src="img/批注%202019-11-24%20164056.jpg" style="float: left;margin: 0px;"><a ><p>开发人员社区</a></p></div>
+		<div class="six-btn1"><img src="img/批注%202019-11-24%20164110.jpg" style="margin: 0px;float: left;"><a ><p>文档</a></p></div>
+		<div class="six-btn1"><img src="img/批注%202019-11-24%20164125.jpg" style="margin: 0rem;float: left;"><a ><p>博客</a></p></div>
+	</div>
+	<div class="seven">
+		<div class="seven-btn">
+		<a href="https://www.facebook.com/visualstudio/"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/Facebook.png" style="margin: 0px;"></a>
+		<a href="https://www.youtube.com/user/VisualStudio/featured"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/youtube.png" style="margin: 0px;"></a>
+		<a href="https://twitter.com/VisualStudio?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/TwitterWhite.png" style="margin: 0px;"></a>
+	</div>
+	</div>
+	
+	<div class="end">
+		<div class="end-top">
+		<ul2>
+			<p>新增内容</p>
+		<li><a >Surface Pro 6</a></li>
+		<li><a > Surface Laptop 2</a></li>
+		<li><a >Surface Go</a></li>
+		<li><a >Windows 10 应用程序</a></li>
+		</ul2>
+		<ul2>
+			<p>Microsoft Store</p>
+			<li><a >帐户个人资料</a></li>
+			<li><a >下载中心</a></li>
+			<li><a >订单跟踪</a></li>
+		</ul2>
+		<ul2>
+			<p>教育</p>
+			<li><a >Microsoft 教育领域</a></li>
+			<li><a >适合学生的 Office</a></li>
+			<li><a >适用于学校的 Office 365</a></li>
+			<li><a >Microsoft Azure 教育领域</a></li>
+		</ul2>
+		<ul2>
+			<p>企业</p>
+			<li><a >Azure</a></li>
+			<li><a >AppSource</a></li>
+			<li><a >汽车</a></li>
+			<li><a >政府机构</a></li>
+			<li><a >医疗保健</a></li>
+			<li><a >制造业</a></li>
+			<li><a >金融服务</a></li>
+			<li><a >零售业</a></li>
+		</ul2>
+		<ul2>
+			<p>开发人员</p>
+			<li><a >Microsoft Visual Studio</a></li>
+			<li><a >Windows 开发人员中心</a></li>
+			<li><a >开发人员网络</a></li>
+			<li><a >TechNet</a></li>
+			<li><a >Microsoft 开发人员计划</a></li>
+			<li><a >第9频道</a></li>
+			<li><a >Office 开发人员中心</a></li>
+		</ul2>
+		<ul2>
+			<p>公司</p>
+			<li><a >招贤纳士</a></li>
+			<li><a >关于 Microsoft</a></li>
+			<li><a >公司新闻</a></li>
+			<li><a >Microsoft 隐私</a></li>
+			<li><a >投资人</a></li>
+			<li><a >安全性</a></li>
+		</ul2>
+		</div>
+		<div class="end-end">
+			<ul>
+				<li><a ><img src="img/international.png" width="15px" height="15px" style="margin: 0px;">简体中文 (Chinese, Simplified)</a></li>
+			</ul>
+		<ul>
+		<li><a >请联系我们</a></li>
+		<li><a >隐私 & Cookie</a></li>
+		<li><a >使用条款</a></li>
+		<li><a >商标</a></li>
+		<li><a >关于我们的广告</a></li>
+		<li>© Microsoft 2019</li>
+		</ul>
+		</div>
+	</div>
+	<div class="feedback"><button onclick="tishi()">
+	<p>feedback</p><img src="img/铅笔.png" style="margin: 0px;width: 30px;height: 30px;"></button></div>
+	<div class="tishi"><img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31">
+	<div class="xx"><p>您的反馈有助于我们提高我们的网站</p>
+	<p>你对此页面有何想法？</p>
+	<span class="start1">☆</span><span class="start2">☆</span><span class="start3">☆</span>
+	<span class="start4">☆</span><span class="start5">☆</span>
+	<div class="textarea"><p>描述您的问题或分享您的想法</p><textarea></textarea><button class="fankuibtn">提交</button></div></div>
+	<div class="fankui">
+		<p>谢谢您的反馈 ！</p>
+<p>我们感谢您与我们分享您的想法</p></div>
+	</body>
+</html>
