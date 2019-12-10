@@ -1,11 +1,11 @@
 window.onload=function(){Show();become();Become();show();show1();color();Color();Show1();Show2();showpic();Showpic();SHOW();shoow();show4();show3();show5();show6();show7();show8();show9();}/*网页加载好就启用函数!*/
-document.addEventListener('DOMContentLoaded', function () {
-  var checkbox = document.querySelector('input[type="checkbox"]');
+// document.addEventListener('DOMContentLoaded', function () {
+//   var checkbox = document.querySelector('input[type="checkbox"]');
   
-  checkbox.addEventListener('change', function () {
-    document.documentElement.classList.toggle('switch');
-  });
-});
+//   checkbox.addEventListener('change', function () {
+//     document.documentElement.classList.toggle('switch');
+//   });
+// });
 function Show(){
 
 		            var subMenu = document.getElementsByClassName("div")[0] ;
